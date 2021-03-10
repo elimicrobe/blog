@@ -1,0 +1,70 @@
+header h1 a{
+    color: green;
+    text-decoration: none;
+}
+header h1 a:hover{
+    color: blue;
+    animation: initial 2ms cubic-bezier(0.075, 0.82, 0.165, 1) backwards;
+}
+body{
+    background-color: rgb(63, 61, 61);
+    font-size: 18px;
+}
+.nav-left a{
+    margin-right: auto;
+ }
+ .nav-right a{
+     color: red;
+     margin-left: 70%;
+     padding: 2rem;
+     text-decoration: none;
+}
+.nav-right a:hover{
+    color: blue;
+}
+.post-entry {
+    margin-bottom: 2rem;
+}
+.post-entry h2 {
+    color: blue;
+    margin: 0.5rem 0;
+}
+.post-entry p{
+    color: white;
+}
+.post-entry h2 a, .post-entry h2 a:visited {
+    color: blue;
+    text-decoration: none;
+}
+.post-entry p {
+    margin: 0;
+    font-weight: 400;
+}
+.post-entry h2 a:hover {
+     color: red;
+}
+
+.post_new{
+    font-size: 1.8rem;
+    color: blue;
+    padding-top: 1rem;
+}
+.form_A{
+    color: blue;
+    font-size: 1.5rem;
+}
+.form_input{
+    color: red;
+    font-size: 1.5rem;
+    border-color: red;
+}
+.edit_post{
+    color: blue;
+}
+.edit_blog_post a{
+    color: red;
+    text-decoration: none;
+}
+.edit_blog_post a:hover{
+    color: blue;
+}
