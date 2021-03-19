@@ -5,8 +5,11 @@ name = "pypi"
 
 [packages]
 whitenoise = "==5.1.0"
+gunicorn = "==19.0.0"
 
 [dev-packages]
 
 [requires]
 python_version = "3.9"
+
+Web: gunicorn config.wsgi --log-file -
